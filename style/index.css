@@ -37,7 +37,6 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 	max-width: 100%;
-	border:1px solid gray;
 }
 html{
 	font-size:62.5%;
@@ -53,29 +52,48 @@ h1{
 
 .aboutme{
 	display:flex;
-	justify-content:space-between;
-	margin:50px 20px;
+	justify-content:center;
+	align-items:center;
+	justify-content: space-between;
+	margin:50px 300px;
+}
+.aboutme nav{
+	display:flex;
+	font-size:3rem;
+	justify-content: center;
+	
 }
 .profilepic{
 	width:30vw;
 	
 }
- .info{
+.info{
 	width:20vw;
 
 }
 h2{
+	display:flex;
+	justify-content: center;
 	font-size:5.5rem;
 }
 p{
 	font-size:2rem;
+	justify-content: center;
 }
-.projectpics img{
+.projectpics{
 	display:flex;
-}
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content: space-around;
+
+
+} 
 footer{
 	background:grey;
 	display:flex;
+	justify-content: center;
 	flex-direction:column;
-	align-self:center;
+	text-align: center;
+	font-size:3rem;
+
 }
