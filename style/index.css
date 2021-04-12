@@ -37,64 +37,39 @@ blockquote, q {
 *{
 	box-sizing: border-box;
 	max-width: 100%;
+	border:1px solid black;
 }
 html{
-	font-size:62.5%;
+	font-size: 62.5%;
 }
+
+/*Header Style*/
+
 header{
-	background-color:grey;
-	font-size:3rem;
+	background-color: gray;
 }
 h1{
-	font-size:7.0rem
-}
-/*general info*/
+	font-size: 5.5rem;
+	color: white;
 
-.aboutme{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+}
+header nav a{
+	text-decoration:none;
+	font-size: 2rem;
+	color:white;
+	background-color: black;
+	
+}
+
+/*About Style*/
+
+#about {
+	display: flex;
 	justify-content: space-between;
-	margin:50px 300px;
+	width:50%;
+	height:50vh;
 }
-.aboutme nav{
-	display:flex;
-	font-size:3rem;
-	justify-content: center;
+#about .left{
+	width:20%;
 	
-}
-.profilepic{
-	width:30vw;
-	
-}
-.info{
-	width:20vw;
-
-}
-h2{
-	display:flex;
-	justify-content: center;
-	font-size:5.5rem;
-}
-p{
-	font-size:2rem;
-	justify-content: center;
-}
-.projectpics{
-	display:flex;
-	flex-wrap: wrap;
-	align-items:center;
-	justify-content: space-around;
-
-
-} 
-footer{
-	background:grey;
-	display:flex;
-	justify-content: center;
-	flex-direction:column;
-	text-align: center;
-	font-size:3rem;
-	height:15vh;
-
 }
