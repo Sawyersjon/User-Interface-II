@@ -1,1 +1,176 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+/*General Styles*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 7rem;
+
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+/*Header Styles*/
+
+header{
+    background-color: grey;
+}
+
+header nav{
+    margin-left: 2%;
+    padding-bottom: 1%
+}
+
+header nav a{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    padding: .5%;
+    border-radius: 15%;
+}
+
+header nav a:hover{
+    background-color: black;
+    color: white;
+    border:2px solid white;
+}
+
+/*About Section*/
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
+}
+
+#left img{
+    width: 50rem;
+    
+}
+
+#right{
+    width: 25%;
+    margin:7% 0;
+}
+
+#right a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: .5%;
+    border-radius:15%;
+    font-size: 2rem;
+}
+
+#right a:hover{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+
+}
+
+/*project section*/
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#projects div{
+    display: flex;
+    flex-direction: column;
+    width: 22.5%;
+    padding: 1%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#projects div h3{
+    font-size: 2rem;
+}
+
+/*footer styles*/
+
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer a{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    padding: .5%;
+    border-radius: 15%;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+    border:2px solid white;
+}
